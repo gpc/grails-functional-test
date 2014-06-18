@@ -33,6 +33,12 @@ class FunctionalTestException extends AssertionFailedError {
         this.urlStack = test.urlStack
         this.baseURL = test.baseURL
     }
+    FunctionalTestException(BaseFunctionalSpec test, Throwable cause) {
+        super(cause.message ?: cause.toString())
+        this.hackedCause = GrailsUtil.sanitize(cause)
+        this.urlStack = test.urlStack
+        this.baseURL = test.baseURL
+    }
 
     void dumpURLStack(PrintWriter pw = null) {
         if (!pw) pw = System.out
