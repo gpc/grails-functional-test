@@ -81,8 +81,8 @@ grails.project.dependency.resolution = {
         build(':release:3.0.1', ':rest-client-builder:1.0.3', ':tomcat:7.0.52.1') {
             export = false
         }
-        runtime ":hibernate:3.6.10.13", {
-            export = false
-        }
+//        runtime ":hibernate:3.6.10.13", {
+//            export = false
+//        }
     }
 }

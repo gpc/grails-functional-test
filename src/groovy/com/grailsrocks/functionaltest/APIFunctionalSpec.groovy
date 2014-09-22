@@ -3,7 +3,7 @@ package com.grailsrocks.functionaltest
 import com.grailsrocks.functionaltest.client.APIClient
 
 /**
- * Created by saagrawal on 6/18/14.
+ * Created  on 6/18/14.
  */
 class APIFunctionalSpec extends BaseFunctionalSpec{
 

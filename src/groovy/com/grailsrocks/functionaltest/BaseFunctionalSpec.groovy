@@ -15,7 +15,7 @@ import spock.lang.Specification
 import static org.junit.Assert.*
 
 /**
- * Created by saagrawal on 6/18/14.
+ * Created  on 6/18/14.
  */
 abstract class BaseFunctionalSpec extends Specification implements GroovyInterceptable, ClientAdapter {
 
