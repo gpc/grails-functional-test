@@ -6,4 +6,8 @@
 /web-app
 target
 plugin.xml
+/.idea
+.idea/
+
+
 grails-functional-test*.zip
