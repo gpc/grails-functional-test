@@ -28,6 +28,8 @@ class FunctionalTestGrailsPlugin {
     def title = "Functional Testing"
     def description = '''Simple 'pure grails' functional testing for your web applications'''
 
+    def packaging = "binary"
+
     static pluginExcludes = [
         'grails-app/controllers/**',
         'grails-app/conf/**',
