@@ -281,6 +281,7 @@ class BrowserClient implements Client, WebWindowListener, HtmlAttributeChangeLis
         for (p in settings?.requestParameters) {
             r[p.name] = p.value
         }
+        return r
     }
 
     String getResponseAsString() {
@@ -296,6 +297,7 @@ class BrowserClient implements Client, WebWindowListener, HtmlAttributeChangeLis
         for (p in response?.responseHeaders) {
             r[p.name] = p.value
         }
+        return r
     }
 
     String nodeToString(def n) {
